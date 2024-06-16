@@ -1,4 +1,4 @@
-[submodule "prompt_toolkit"]
-	path = prompt_toolkit
+[submodule "python-prompt-toolkit"]
+	path = python-prompt-toolkit
 	url = https://github.com/djstompzone/python-prompt-toolkit.git
-	branch = select-menu-stable
+	branch = master
