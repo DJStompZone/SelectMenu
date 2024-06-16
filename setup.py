@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
+import sys
+import os
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'prompt_toolkit'))
 from setuptools import setup, find_packages
 from selectmenu import __author__, __version__
 
